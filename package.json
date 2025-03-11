@@ -1,0 +1,24 @@
+{
+  "name": "lfw111",
+  "version": "0.1.0",
+  "description": "LFW111",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasnhsilva/nodejs-lfw111.git"
+  },
+  "keywords": [
+    "learning",
+    "nodejs",
+    "lfw111"
+  ],
+  "author": "Lucas Nathan Henrique da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasnhsilva/nodejs-lfw111/issues"
+  },
+  "homepage": "https://github.com/lucasnhsilva/nodejs-lfw111#readme"
+}
