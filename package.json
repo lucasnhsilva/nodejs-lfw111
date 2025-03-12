@@ -4,7 +4,9 @@
   "description": "LFW111",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "start": "node server.mjs",
+    "static": "serve -p 5050 static",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/lucasnhsilva/nodejs-lfw111/issues"
   },
-  "homepage": "https://github.com/lucasnhsilva/nodejs-lfw111#readme"
+  "homepage": "https://github.com/lucasnhsilva/nodejs-lfw111#readme",
+  "dependencies": {
+    "fastify": "^5.2.1",
+    "fastify-cli": "^7.3.0",
+    "serve": "^14.2.4"
+  }
 }
